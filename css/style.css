@@ -1,0 +1,641 @@
+body,
+html {
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+body p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Playfair Display', serif;
+  line-height: 50px;
+}
+
+/*=========================
+This centers items where applied starts here
+=========================== */
+.container-fluid {
+  padding: 0% 15%;
+}
+
+/*=========================
+Navigation bar starts here
+=========================== */
+.navbar {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  transition: 0.6s !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: light;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding-bottom: 2px;
+}
+
+.nav-link:hover {
+  color: #3c2ead !important;
+  border-bottom: 2px solid #3c2ead;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+}
+
+nav .active {
+  color: #3c2ead !important;
+  border-bottom: 2px solid #3c2ead;
+}
+
+.navbar-brand span {
+  font-size: 10px;
+  padding-left: 10px;
+  color: #2f2f2f;
+}
+
+.navbar-brand {
+  color: #520000 !important;
+  font-size: 30px;
+}
+
+/*=========================
+Hero-page starts here
+=========================== */
+.hero-page {
+  padding-top: 7%;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hero-page p, h1{
+  text-align: left;
+}
+
+.hero_button,
+.download-btn {
+  margin: 5% 3% 5% 0;
+  border-radius: 20px;
+  background-color:#264d47;
+  border: 0;
+  font-size: 1rem;
+}
+
+.hero_button:hover {
+  background-color:#366860;
+}
+
+.download-btn {
+  background: none;
+  border: 1px solid #fbfbfb;
+  color: #fafafa;
+}
+
+.download-btn:hover {
+  background-color: #264d47;
+}
+
+.hero-icons {
+  font-size: 25px;
+  color: rgb(156, 156, 156);
+  margin-right: 10px;
+}
+
+.hero-icons:hover {
+  color: #ffffff;
+}
+
+.hero-img img{
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Brands Section */
+#brands {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 2% 0;
+  margin-top: 2%;
+}
+
+#brands img {
+  width: 8%;
+  margin-right: 50px;
+}
+
+
+/*=========================
+Case study starts here
+=========================== */
+.case-studies {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.case-card{
+  background: #ffffff;
+  border-radius:10px ;
+  border: 2px solid rgb(231, 217, 15);
+  margin-bottom: 20px ;
+  text-align: left;
+  color: rgb(37, 37, 37);
+}
+
+.case-card:hover{
+  box-shadow: 0 4px 8px 0 rgba(61, 61, 61, 0.2), 0 6px 20px 0 rgba(149, 149, 149, 0.09);
+}
+
+.case-btn {
+  background-color: #366860;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 14px;
+  width: 50%;
+}
+
+.case-btn:hover {
+  background-color: #264d47;
+  color: #fff;
+  border: 1px solid #264d47;
+}
+
+.case1-btn {
+  background: none;
+  border: 1px solid rgb(53, 53, 53);
+  color: rgb(37, 37, 37);
+}
+
+.case1-btn:hover {
+  background-color: #366860;
+  color: #fff;
+}
+
+
+/*=========================
+Testimonials starts here
+=========================== */
+#testimonials {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#testimonials h3 {
+  font-family: 'Poppins', serif;
+  font-weight: normal;
+  display: block;
+  color: rgb(46, 46, 46);
+}
+
+#testimonials em {
+  display: block;
+  color: rgb(51, 51, 51);
+}
+
+.name {
+  color: #161616;
+}
+
+.company {
+  color: rgb(92, 91, 92);
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid rgb(138, 138, 138);
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: rgb(46, 46, 46);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(46, 46, 46);
+}
+
+
+/*=========================
+Footer starts here
+=========================== */
+#footer {
+  background-color: rgb(47, 47, 47);
+  padding: 7% 15%;
+  color: #fff;
+}
+
+#footer h2 {
+  font-size: 2.6em;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.footer-icons {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.footer-icons:hover {
+  color: lightslategray;
+}
+
+.footer-email {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+
+.footer-email,
+a:hover {
+  color: #3f5f5a;
+}
+
+.footer-email,
+a{
+  color: #48b3a3;
+}
+
+.footer-claim {
+  padding-top: 30px;
+  font-weight: small;
+}
+
+/*=========================
+Footer ends here
+=========================== */
+
+/*=========================
+My Projects starts here
+=========================== */
+
+.mywork-cases {
+  padding-top: 100px;
+}
+
+.card-img-top{
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/*=========================
+About-me starts here
+=========================== */
+
+.about-img {
+  padding-top: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.about-paragraph{
+  text-align: left;
+}
+
+/*=========================
+Dalex finance case study starts here
+=========================== */
+#dalexapp-page{
+    background-image: linear-gradient( rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.781) ), url("../images/dalex case/hero image.jpg"); 
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+.hero-page p{
+  color: rgb(241, 241, 241);
+  padding: 10px 10px 10px 0px;
+}
+
+#dalexapp-page .content{
+  margin: 20px 0px;
+}
+
+.hero-page{
+  margin-top: 50px;
+}
+  
+#dalexapp-page.content h2,
+h3,
+h4 {
+  display: inline;
+  color: #ff8801;
+  margin: 0;
+}
+
+.content span{
+  padding: 0 10px 0 0;
+  font-size: 1.5em;
+  color: #fafafa;
+}
+
+.userflow {
+  padding-top: 5%;
+}
+
+.case-images {
+  width: 100%;
+}
+
+.persona-image, .iteration-image {
+  width: 100%;
+}
+
+.process-image {
+  width: 100%;
+  padding-top: 80px;
+}
+
+.lowfi{
+  width:100%;
+}
+
+#dalexapp-page .low-text{
+  text-align: center;
+  padding:0 50px;
+}
+
+/*=========================
+Bettybingo case study starts here
+=========================== */
+#case-heropage {
+  background-image: linear-gradient( rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.781) ), url("../images/bettycase/bettycasehero.png");
+  color: #fff;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.role-introduction{
+  padding-top:3% !important;
+}
+
+.bettybingo p {
+  text-align: left;
+
+}
+.bettybingo
+.content h4,
+.content h3,
+.content h2 {
+  display: block;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.content {
+  padding: 10px 0px;
+}
+
+.betty-img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#context {
+  padding: 30px;
+}
+
+.case-image {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.lowfi-img {
+  width: 100%;
+  height: auto;
+}
+
+.highfi-img {
+  width: 100%;
+}
+
+
+/*=========================
+Media query for tablets
+starts here
+Medium devices (tablets,
+less than 992px
+========================= */
+
+@media (max-width: 991.98px) {
+  .container-fluid {
+    padding: 0% 5%;
+  }
+
+  #hero-page {
+    text-align: left;
+    padding-top: 12%;
+  }
+  .hero-page h1{
+    text-align: center;
+  }
+
+  .hero-img img{
+      display: none;
+    }
+
+    #hero-page h1{
+      text-align: center;
+    }
+
+    .about-paragraph{
+      text-align: left;
+    }
+  
+  }
+
+    /*=========================
+    Media query for mobile 
+    phones starts here
+    Small devices (landscape phones,
+    less than 768px
+    =========================== */
+
+@media all and (max-width: 767.98px) {
+  .container-fluid {
+    padding: 0px 20px;
+  }
+
+  .hero-page {
+    text-align: center;
+    padding-top: 17%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-page p {
+    text-align: left;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero_button,
+  .download-btn,.case-btn {
+    height: 45px;
+    width: 250px;
+    font-size: 1.1rem;
+  }
+
+  .download-btn {
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #fbfbfb;
+    color: #fafafa;
+  }
+
+  .hero_button{
+    display: block;
+    margin: 20px auto;
+  }
+
+  #brands img {
+    width: 13%;
+    margin-right: 50px;
+  }
+
+  .hero-icons {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 5px 10px 5px 0;
+  }
+
+  h5 {
+    font-weight: normal;
+  }
+
+  /* Testimonial */
+  #testimonials h3 {
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    display: block;
+    color: rgb(46, 46, 46);
+  }
+
+  /* Testimonial */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(138, 138, 138);
+  }
+
+  .carousel-control-next-icon:after {
+    content: '>';
+    font-size: 23px;
+    color: rgb(46, 46, 46);
+  }
+
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 23px;
+    color: rgb(46, 46, 46);
+  }
+
+  .name {
+    color: rgb(26, 26, 26);
+  }
+
+  .testimonial-img {
+    width: 30%;
+  }
+
+  /* =================
+  Bettybingo case
+  ===================*/
+
+  /* case role intro */
+  .small-screen {
+    width: 50%;
+    display: inline;
+  }
+
+  .case-card {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .case-btn{
+    width: 100%;
+  }
+
+  .card-img {
+    margin: 1%;
+    width: 50%;
+    height: auto;
+  }
+
+  .about-img {
+    text-align: left;
+    padding-top: 12%;
+    width: 90%;
+    height: 100%;
+  }
+
+  /*=========================
+    footer starts here
+=========================== */
+
+  #footer {
+    background-color: rgb(47, 47, 47);
+    padding: 7% 1%;
+    color: #fff;
+    text-align: center;
+  }
+
+  #footer h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-icons {
+    margin-top: 10px;
+  }
+
+  #footer .footer-claim p {
+    font-size: small;
+  }
+
+}
+
+/*=========================
+Media Query starts here
+=========================== */
